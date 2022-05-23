@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background: rgba(15, 15, 15, 1);
+    
+    font-family: 'Post No Bills Jaffna', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 1);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.container{
+    background: rgba(15, 15, 15, 1);
+    
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    color: rgba(150, 150, 150, 1);
+}
+
+
+
+.header{
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+}
+
+.cont__inf{
+    
+    display: flex;
+    justify-content: space-between;
+
+    background: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    
+}
+.cont__link{
+
+    color: rgba(150, 150, 150, 1);
+    text-decoration: none;
+    vertical-align: top;
+    justify-content: space-between;
+}
+
+.header__inner{
+    
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header__logo{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.navigation{
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+.nav__link{
+    color: rgba(150, 150, 150, 1);
+    text-decoration: none;
+    vertical-align: top;
+    margin: 0 10px;
+    
+    transition: color .3s linear;
+}
+
+.nav__link:hover{
+    color: rgba(255, 255, 255, 1);
+    background: rgba(31, 31, 31, 1);
+    width: 31;
+    height: 20;
+    outline: 10px solid rgba(31, 31, 31, 1) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
